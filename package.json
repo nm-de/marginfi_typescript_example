@@ -1,0 +1,50 @@
+{
+  "name": "mrgnlend-interface",
+  "version": "1.0.0",
+  "description": "Interactive TypeScript interface for mrgnlend (marginfi v2) protocol",
+  "main": "marginfi_lending.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "npx ts-node marginfi_lending.ts",
+    "interface": "npx ts-node marginfi_lending.ts",
+    "install-cli": "npm install -g @mrgnlabs/marginfi-cli",
+    "cli-withdraw": "mfi account withdraw 2cZh5HsT3pkKWbhGjhHi56u2oKFSjkDjsoRqt18bxu8W 0.01"
+  },
+  "dependencies": {
+    "@mrgnlabs/marginfi-client-v2": "latest",
+    "@project-serum/anchor": "latest",
+    "@solana/web3.js": "^1.78.0",
+    "@types/big.js": "^6.2.2",
+    "@types/debug": "^4.1.12",
+    "big.js": "^7.0.1",
+    "debug": "^4.4.1",
+    "dotenv": "^16.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "marginfi",
+    "solana",
+    "lending",
+    "defi",
+    "typescript",
+    "interactive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nm-de/marginfi_typescript_example.git"
+  },
+  "homepage": "https://github.com/nm-de/marginfi_typescript_example#readme",
+  "bugs": {
+    "url": "https://github.com/nm-de/marginfi_typescript_example/issues"
+  },
+  "author": "mrgnlend Interface",
+  "license": "Apache-2.0"
+}
