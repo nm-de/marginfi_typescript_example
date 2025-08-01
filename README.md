@@ -9,6 +9,7 @@ A TypeScript application for interacting with mrgnlend (marginfi v2) protocol fo
 ✅ **Menu System**: All requested flows (lend, withdraw, status)  
 ✅ **mrgnlend Integration**: **REAL TRANSACTIONS** - Actual marginfi v2 program interactions
 ⚠️ **Incomplete APY labels**: APY information for banks is incorrect/ incomplete
+⚠️ Suggested RPC: Helius free RPC is not compatible, but quicknode free plan is
 
 ## Features
 
